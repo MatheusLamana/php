@@ -96,7 +96,7 @@
             </div>
 
             <?php
-                if (! empty($sucesso)){
+                if (!empty($sucesso)){
                     echo "
                     <div class='row mb-3'>
                         <div class='offset-sm-3 col-sm-6'>
