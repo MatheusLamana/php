@@ -1,0 +1,18 @@
+--Dados da tabela usuario.
+--ao clicar em Novo Cliente adiciona novos usuarios.
+
+
+create table usuarios(
+	id SMALLINT PRIMARY KEY AUTO_INCREMENT,
+	nome varchar(50),
+	email varchar(50),
+	telefone varchar(50)	 
+);
+
+
+insert into usuarios(nome, email, telefone) values
+	('Jose de sousa','jose@email.com','21989321123'),
+	('Maria joaquina', 'maria@email.com', '31001001234'),
+	('Adalto Paiva', 'aldato@email.com', '45998761231'),
+	('Antonio de Lucca', 'antonio321@email.com', '3511232123'),
+	('Geraldo Ribeiro', 'geraldao@email.com', '98999923129');
