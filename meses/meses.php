@@ -19,7 +19,7 @@ $valor = $_POST['aaa'];
 
 if(!str_starts_with($valor, 0)){
     if($valor > 12){
-        echo "Valor não pode ser maior que 12";
+        echo "Valor não corresponde aos meses.";
         exit;
     }
     echo "$meses[$valor]";
