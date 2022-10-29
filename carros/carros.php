@@ -73,13 +73,4 @@ foreach($carros as $value){
     echo $value['Modelo'] . "</br>";
 }
 
-
-// $aa = array_column($carros, 'Ano');
-// sort($aa);
-
-// foreach ($aa as $key => $value) {
-//     echo $value. " ". $key . "<br>";
-// }
-
-
 ?>
