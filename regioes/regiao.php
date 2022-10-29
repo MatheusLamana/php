@@ -56,8 +56,6 @@ $estados = [
     }
 
 
-#basicamente o que preciso fazer é preciso pegar um input do usario do type select depois retorna o valor do estado no regiao que pertence ex "SC" ->
-
 ?>
 
 <!DOCTYPE html>
